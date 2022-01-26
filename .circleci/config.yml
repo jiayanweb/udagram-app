@@ -51,5 +51,4 @@ jobs:
           name: Deploy Backend
           command: |
             echo "Deploying api to ebs."  # eb deploy Jyxudagramapi4-env
-            cd ./udagram-api/www
             eb deploy Jiayanudagramapi2-env
