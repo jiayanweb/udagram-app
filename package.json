@@ -1,8 +1,8 @@
 {
   "scripts": {
     "frontend:install": "npm --prefix ./udagram-frontend install",
-    "backend:install": "npm --prefix ./udargram-api install",
+    "backend:install": "npm --prefix ./udagram-api install",
     "frontend:build": "npm --prefix ./udagram-frontend run build",
-    "backend:build": "npm --prefix ./udargram-api run build"
+    "backend:build": "npm --prefix ./udagram-api run build"
   }
 }
