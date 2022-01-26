@@ -44,10 +44,12 @@ jobs:
           command: |
             npm run backend:build
       - run:
-          name: Deploy Backend
-          command: |
-            echo "Deploying api to ebs."  # eb deploy Jyxudagramapi4-env
-      - run:
           name: Deploy Front-End
           command: |
             aws s3 sync ./udagram-frontend/www s3://udagramfrontendjyx
+      - run:
+          name: Deploy Backend
+          command: |
+            echo "Deploying api to ebs."  # eb deploy Jyxudagramapi4-env
+            cd ./udagram-api/www
+            eb deploy Jiayanudagramapi2-env
