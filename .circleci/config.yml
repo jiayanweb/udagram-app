@@ -50,4 +50,4 @@ jobs:
       - run:
           name: Deploy Front-End
           command: |
-            aws s3 sync ./www s3://udagramfrontendjyx
+            aws s3 sync ./udagram-frontend/www s3://udagramfrontendjyx
