@@ -1,9 +1,0 @@
-branch-defaults:
-  circleci-project-setup:
-    environment: Jiayanudagramapi2-env
-global:
-  application_name: Jiayanudagramapi2
-  default_ec2_keyname: Jiayanudagramapi2
-  default_platform: Node.js 12 running on 64bit Amazon Linux 2/5.4.9
-  default_region: us-east-2
-  sc: git
