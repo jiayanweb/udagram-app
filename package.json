@@ -3,6 +3,8 @@
     "frontend:install": "npm --prefix ./udagram-frontend install",
     "backend:install": "npm --prefix ./udagram-api install",
     "frontend:build": "npm --prefix ./udagram-frontend run build",
-    "backend:build": "npm --prefix ./udagram-api run build"
+    "backend:build": "npm --prefix ./udagram-api run build",
+    "frontend:test": "npm --prefix ./udagram-frontend run test",
+    "backend:test": "npm --prefix ./udagram-api run test"
   }
 }
