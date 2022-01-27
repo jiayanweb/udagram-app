@@ -14,7 +14,7 @@
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" ",
     "clean-windows": "rimraf www/ || true",
     "build-windows": "npm run clean-windows && tsc && npm run copy-windows",
     "copy-windows": "copy .npmrc \"www/.npmrc\" && copy package.json \"www/package.json\" && xcopy /E /I \"src/migrations\" \"www/migrations\""
