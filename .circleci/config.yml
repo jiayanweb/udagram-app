@@ -62,6 +62,7 @@ jobs:
             echo "Deploying api to ebs."
             cd ./udagram-api
             eb deploy Jiayanudagramapi2-env
+            eb -list
             eb setenv AWS_ACCESS_KEY=$AWS_ACCESS_KEY
             eb setenv AWS_BUCKET=$AWS_BUCKET
             eb setenv AWS_PROFILE=$AWS_PROFILE
