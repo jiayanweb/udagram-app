@@ -61,4 +61,5 @@ jobs:
           command: |
             echo "Deploying api to ebs."
             # cd ./udagram-api
+            # eb setenv ExampleVar=ExampleValue
             # eb deploy Jiayanudagramapi2-env
